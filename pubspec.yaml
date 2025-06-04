@@ -1,0 +1,30 @@
+name: boxtrust
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+  google_fonts: ^6.1.0
+  provider: ^6.1.5
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logoti.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
